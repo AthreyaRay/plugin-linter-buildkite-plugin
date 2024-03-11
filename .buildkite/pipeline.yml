@@ -17,5 +17,6 @@ steps:
   
   - label: ":sparkles: Self-test"
     plugins:
-      - $BUILDKITE_REPO#$BUILDKITE_COMMIT:
+      - AthreyaRay/plugin-linter-buildkite-plugin#$BUILDKITE_COMMIT:
           id: plugin-linter
+
